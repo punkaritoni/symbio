@@ -10,7 +10,10 @@ C, Java, Python.
 to system X (imaginative page that contains username and password fields and  
 a submit-button.)  
 
+
 How to execute code:  
 
 "Make Run" will execute solutions for both assignment 1 and 2  
 "Make Test" will execute unit tests for assignment 1    
+
+For the Robot task, I utilized this site for login testing: https://practicetestautomation.com/practice-test-login/  
