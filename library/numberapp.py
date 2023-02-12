@@ -14,6 +14,7 @@ def generate_content(from_num: int = 1, to_num: int = 100) -> List[int]:
     return numbers
 
 def read_from_file(filename: str = "numbers.txt") -> List[int]:
+    """Read file and return content (int) as a list"""
     with open(filename, "r") as f:
         num_list = []
         for line in f.readlines():
@@ -21,10 +22,12 @@ def read_from_file(filename: str = "numbers.txt") -> List[int]:
     return num_list
 
 def log_content(content:List[int]) -> None:
+    """Print half of the content given as input"""
     for index in range(int(len(content)/2)):
         print(f"Value {index +1} = {content[index]}")
 
 def main():
+    """Main entry point"""
     write_to_file(generate_content(1,100))
     log_content(read_from_file())
 

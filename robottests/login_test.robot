@@ -4,6 +4,7 @@ Library    SeleniumLibrary
 
 *** Test Cases ***
 Sign In With Correct Credentials
+    [Documentation]    Verify that page login works with correct credentials
     [tags]    signin
     Sign In Test Setup
     Open Browser    ${TARGET_URL}    ${BROWSER}
@@ -11,6 +12,7 @@ Sign In With Correct Credentials
     Wait Until Page Contains    Logged In Successfully    20
 
 Sign In With Incorrect Credentials
+    [Documentation]    Verify that page login can handle incorrect credentials
     [tags]    signin
     Sign In Test Setup
     Open Browser    ${TARGET_URL}    ${BROWSER}
