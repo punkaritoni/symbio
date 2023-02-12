@@ -37,6 +37,13 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+# Robot stuff
+log.html
+numbers.txt
+output.xml
+report.html
+test.txt
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
