@@ -1,4 +1,3 @@
-requests
 pytest
 robotframework
 robotframework-seleniumlibrary
